@@ -29,7 +29,7 @@
     
     <script type="text/javascript">
     $(function(){
-       window.banner = $("#slider").adainBanner({ 
+       window.banner = $("#banner").adainBanner({ 
            autoPlay: true, direction: 'left'
        }, onBannerMoved);
     });
