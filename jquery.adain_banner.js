@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
     Email : jsy@adain.kr (SungYong Jang)
-    Basic Useage
+    Basic Usage
     <div id="banner">
         <ul>
             <li><img src="1.jpg" /><li>

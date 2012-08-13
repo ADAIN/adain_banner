@@ -1,0 +1,23 @@
+Basic Usage(기본 사용법)
+
+<div id="banner">
+<ul>
+    <li><img src="1.jpg" /><li>
+    <li><img src="2.jpg" /><li>
+    <li><img src="3.jpg" /><li>
+</ul>
+</div>
+<a href="javascript:banner.movePrev();">prev</a>
+<a href="javascript:banner.moveNext();">next</a>
+
+<script type="text/javascript">
+$(function(){
+window.banner = $("#slider").adainBanner({ 
+   autoPlay: true, direction: 'left'
+}, onBannerMoved);
+});
+function onBannerMoved(index, oldIndex)
+{
+console.log(index + "," + oldIndex);
+}
+</script>
